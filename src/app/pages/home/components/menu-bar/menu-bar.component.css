@@ -1,0 +1,39 @@
+.container {
+	display: flex;
+	align-items: center;
+}
+.hamburger,
+hr,
+.close-side-menu {
+	display: none;
+}
+.content {
+	width: 100%;
+	padding: 0.2rem 8rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content > ul {
+	display: flex;
+	gap: 3.2rem;
+}
+.content > ul > li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	font-size: 2rem;
+	padding: 1.2rem;
+	background-color: transparent;
+}
+a:hover {
+	transition: 200ms;
+	opacity: 0.8;
+}
+
+.content > img {
+	width: 8rem;
+	border-radius: 100%;
+}

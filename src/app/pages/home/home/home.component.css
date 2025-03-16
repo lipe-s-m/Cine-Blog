@@ -1,0 +1,14 @@
+.news {
+	display: flex;
+	justify-content: center;
+	gap: 4rem;
+	padding: 4.8rem 2rem;
+	width: 100%;
+	/* background-color: brown; */
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+}

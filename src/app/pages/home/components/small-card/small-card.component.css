@@ -1,0 +1,42 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 2.4rem;
+	/* border: 2px solid beige; */
+	/* width: 60rem; */
+	width: 100%;
+	padding: 0 1rem 0 0;
+}
+img {
+	width: 40%;
+}
+h2 {
+	font-size: 2rem;
+	background-color: inherit;
+}
+p {
+	max-width: 80rem;
+	font-size: 1.5rem;
+	text-wrap: wrap;
+	opacity: 0.8;
+	background-color: inherit;
+}
+.container > p {
+	margin: -1rem 0 -2rem;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+	padding: 0.8rem 0;
+	background-color: transparent;
+}
+
+.container:hover {
+	transition: 200ms;
+	cursor: pointer;
+	opacity: 0.9;
+	background-color: rgb(25, 25, 25);
+}

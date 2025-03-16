@@ -1,0 +1,5 @@
+@media (max-width: 450px) {
+	h2 + p {
+		font-size: 1.4rem;
+	}
+}

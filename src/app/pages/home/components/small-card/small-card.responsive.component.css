@@ -1,0 +1,58 @@
+@media (min-width: 1024px) and (max-width: 1215px) {
+	.content {
+		gap: 0.6rem;
+	}
+	.content > h2 {
+		font-size: 1.6rem;
+	}
+}
+@media (max-width: 565px) {
+	.content {
+		gap: 0.2em;
+		padding: 0.4rem 0;
+	}
+	p {
+		font-size: 1.4rem;
+	}
+	h2 {
+		font-size: 1.6rem;
+	}
+}
+@media (max-width: 420px) {
+	.container {
+		gap: 1.4rem;
+	}
+	.content {
+		gap: 0.2em;
+		padding: 0.4rem 0;
+	}
+	p {
+		font-size: 1.2rem;
+	}
+	h2 {
+		font-size: 1.4rem;
+	}
+	img {
+		width: 14.2rem;
+		align-self: center;
+	}
+}
+@media (max-width: 375px) {
+	.container {
+		gap: 1rem;
+	}
+	.content {
+		gap: 0.2em;
+		padding: 0.4rem 0;
+	}
+	p {
+		font-size: 1rem;
+	}
+	h2 {
+		font-size: 1.3 rem;
+	}
+	img {
+		width: 14.2rem;
+		align-self: center;
+	}
+}

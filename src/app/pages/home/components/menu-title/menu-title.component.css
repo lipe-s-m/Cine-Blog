@@ -1,0 +1,16 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	font-size: 9rem;
+	text-align: center;
+}
+
+hr {
+	opacity: 0.3;
+	border: 2px solid white;
+	width: 100%;
+}

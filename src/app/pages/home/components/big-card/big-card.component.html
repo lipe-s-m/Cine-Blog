@@ -1,0 +1,11 @@
+<!-- <article class="container" (click)="navigateToLink()"> -->
+<article class="container" [routerLink]="['/content', id]">
+	<img src="{{ cardImage }}" alt="foto-sadie" />
+	<p>
+		{{ cardData }}
+	</p>
+	<h2>{{ cardTitle }}</h2>
+	<p>
+		{{ cardResume }}
+	</p>
+</article>

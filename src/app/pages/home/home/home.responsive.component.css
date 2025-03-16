@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+	.news {
+		flex-direction: column;
+		gap: 6.4rem;
+	}
+	.right {
+		gap: 3.2rem;
+	}
+}
+@media (max-width: 565px) {
+	.right {
+		gap: 4rem;
+	}
+}
+@media (max-width: 475px) {
+	.news {
+		padding: 4.8rem 0.4rem;
+	}
+}
