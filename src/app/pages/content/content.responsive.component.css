@@ -1,0 +1,88 @@
+@media (max-width: 1280px) {
+	.top-content > img {
+		margin: 0 auto;
+		max-width: 100rem;
+		width: 70%;
+		min-width: 30rem;
+	}
+}
+@media (max-width: 860px) {
+	.top-content > img {
+		width: 65%;
+		min-width: 30rem;
+	}
+	.top-content > button {
+		font-size: 2rem;
+	}
+
+	.content {
+		width: 80%;
+	}
+	.content > h1 {
+		font-size: 3.2rem;
+	}
+	.content > p {
+		font-size: 1.6rem;
+	}
+}
+@media (max-width: 660px) {
+	.top-content > img {
+		width: 65%;
+		min-width: 30rem;
+	}
+	.top-content > button {
+		padding: 1rem;
+		font-size: 2rem;
+	}
+
+	.content {
+		width: 80%;
+	}
+	.content > h1 {
+		font-size: 2.6rem;
+	}
+	.content > p {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 580px) {
+	.top-content {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.top-content > img {
+		width: 65%;
+		min-width: 30rem;
+	}
+	.top-content > button {
+		padding: 1rem;
+		font-size: 2rem;
+		position: static;
+		align-self: flex-start;
+	}
+}
+
+@media (max-width: 420px) {
+	.top-content > img {
+		width: 65%;
+		min-width: 30rem;
+	}
+	.top-content > button {
+		padding: 1rem;
+		font-size: 2rem;
+		position: static;
+		align-self: flex-start;
+	}
+
+	.content {
+		width: 85%;
+	}
+	.content > h1 {
+		font-size: 2.4rem;
+	}
+	.content > p {
+		font-size: 1.4rem;
+	}
+}

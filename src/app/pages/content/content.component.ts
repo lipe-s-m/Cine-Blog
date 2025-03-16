@@ -7,7 +7,7 @@ import { dataMock } from '../../data/dataMock';
 	standalone: true,
 	imports: [RouterModule],
 	templateUrl: './content.component.html',
-	styleUrl: './content.component.css',
+	styleUrls: ['./content.component.css', './content.responsive.component.css'],
 })
 export class ContentComponent implements OnInit {
 	@Input()
