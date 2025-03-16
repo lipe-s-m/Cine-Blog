@@ -1,8 +1,8 @@
-<header class="container">
-	<span class="hamburger" (click)="setIsEnableHamburger()">☰</span>
+<div class="container">
+	<span class="hamburger" (click)="setOpenSideBar()">☰</span>
 
-	<nav class="content" [class.active]="isEnableHamburger">
-		<span class="close-side-menu" (click)="setIsEnableHamburger()">X</span>
+	<nav class="content" [class.active]="isEnableSideBar">
+		<span class="close-side-menu" (click)="setCloseSideBar()">x</span>
 		<ul>
 			<li>
 				<a href="https://github.com/lipe-s-m" target="_blank" tabindex="1"
@@ -31,4 +31,4 @@
 		</ul>
 		<img src="https://img.icons8.com/badges/512/blogger.png" alt="" />
 	</nav>
-</header>
+</div>

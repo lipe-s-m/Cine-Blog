@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { MenuBarService } from './menu-bar.service';
 
 @Component({
 	selector: 'app-menu-bar',
@@ -12,9 +13,16 @@ import { Component } from '@angular/core';
 	],
 })
 export class MenuBarComponent {
-	isEnableHamburger: boolean = false;
+	isEnableSideBar: boolean = false;
 
-	setIsEnableHamburger(): void {
-		this.isEnableHamburger = !this.isEnableHamburger;
+	constructor(private menuBarService: MenuBarService) {}
+
+	setOpenSideBar(): void {
+		this.isEnableSideBar = true;
+		this.menuBarService.openSideBar();
+	}
+	setCloseSideBar(): void {
+		this.isEnableSideBar = false;
+		this.menuBarService.closeSideBar();
 	}
 }

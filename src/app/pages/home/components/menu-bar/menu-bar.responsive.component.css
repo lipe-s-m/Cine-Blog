@@ -7,6 +7,7 @@
 	}
 	.content > ul {
 		gap: 2.4rem;
+		display: flex;
 	}
 }
 
@@ -16,6 +17,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		background-color: rgb(14, 14, 14);
 	}
 	.content > ul {
 		gap: 0.4rem;
@@ -40,20 +42,30 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: 50%;
+		width: 45%;
 		height: 100dvh;
 		z-index: 11;
 		transform: translateX(-100%);
 		transition: transform 0.3s ease-in-out;
 	}
+
 	.content > ul {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: center;
 		height: 100%;
-		gap: 1rem;
-		padding: 2.4rem;
+		gap: 0.4rem;
+		padding: 0 1.6rem;
+	}
+	ul > li {
+		text-align: center;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	li > a {
+		padding: 0.8rem;
 	}
 
 	.container {
@@ -66,8 +78,8 @@
 
 	.close-side-menu {
 		display: block;
-		font-size: 2.8rem;
-		padding: 0.4rem;
+		font-size: 3.2rem;
+		padding: 0 0.6rem;
 	}
 	hr {
 		display: block;

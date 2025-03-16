@@ -1,6 +1,7 @@
 .container {
 	display: flex;
 	align-items: center;
+	background-color: inherit;
 }
 .hamburger,
 hr,
@@ -20,13 +21,13 @@ hr,
 }
 .content > ul > li {
 	list-style: none;
+	text-align: center;
 }
 
 a {
 	text-decoration: none;
 	font-size: 2rem;
 	padding: 1.2rem;
-	background-color: transparent;
 }
 a:hover {
 	transition: 200ms;
